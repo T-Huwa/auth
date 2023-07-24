@@ -1,0 +1,34 @@
+*{
+    transition: 1s;
+}
+
+.btns{
+    width: 100%;
+}
+
+.next{
+    float: right;
+}
+
+.back{
+    float: left;
+}
+
+.slide{
+    overflow: hidden;
+}
+
+#slide2, #slide3{
+    height: 0;
+    overflow: hidden;
+}
+
+button{
+    width: 30%;
+}
+
+h2{
+    position: absolute;
+    top: 50px;
+    justify-content: center;
+}

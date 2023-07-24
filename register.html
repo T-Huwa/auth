@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/register.js"></script>
+    <title>54 - Register</title>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="form-box">
+                <form action="" method="post">
+                    <h2>Register</h2>
+
+                    <div id="slide1" class="slide">
+                        <div class="input-box fname">
+                            <input type="text" name="fname" id="fname" required>
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="input-box sname">
+                            <input type="text" name="sname" id="sname" required>
+                            <label for="sname">Surname</label>
+                        </div>
+                        <div class="btns">
+                            <button type="button" class="next" onclick="next(this)">Next</button>
+                        </div>
+                    </div>
+
+                    <div id="slide2" class="slide">
+                        <div class="input-box email">
+                            <input type="text" name="email" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="btns">
+                            <button type="button" class="back" onclick="back(this)">Back</button>
+                            <button type="button" class="next" onclick="next(this)">Next</button>
+                        </div>
+                    </div>
+
+                    <div id="slide3" class="slide">
+                        <div class="input-box pass">
+                            <input type="password" name="password" id="password" required>
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="input-box pass">
+                            <input type="password" name="comfirm" id="comfirm" required>
+                            <label for="comfirm">Comfirm Password</label>
+                        </div>
+                        <div class="btns">
+                            <button type="button" class="back" onclick="back(this)">Back</button>
+                            <button class="next">Register</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>    
+    </section>
+</body>
+</html>
